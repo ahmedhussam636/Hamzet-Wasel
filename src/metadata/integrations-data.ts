@@ -1,0 +1,76 @@
+import { IntegrationService, MetricStat } from "./types";
+
+export const initialIntegrations: IntegrationService[] = [
+  {
+    id: "slack",
+    name: "Slack Notifications",
+    description: "Receive instant alerts in dedicated Slack channels for conversions, server errors, and high-value signups.",
+    category: "Messaging",
+    iconName: "MessageSquare",
+    connected: true,
+    webhookUrl: "https://hooks.slack.com/services/T00/B00/XXXXX",
+    lastSync: "3m ago",
+  },
+  {
+    id: "stripe",
+    name: "Stripe Billing & Payments",
+    description: "Sync invoices, MRR, customer payments, refunds, and subscription lifecycles automatically.",
+    category: "CRM",
+    iconName: "CreditCard",
+    connected: true,
+    webhookUrl: "https://api.stripe.com/v1/webhook_endpoints/we_9842",
+    lastSync: "1m ago",
+  },
+  {
+    id: "segment",
+    name: "Twilio Segment CDP",
+    description: "Multiplex raw telemetry events from web, mobile, and server SDKs directly into analytics pipelines.",
+    category: "Analytics",
+    iconName: "Boxes",
+    connected: true,
+    lastSync: "Just now",
+  },
+  {
+    id: "posthog",
+    name: "PostHog Analytics",
+    description: "Self-hosted event capture, user session replay recordings, and feature flag evaluations.",
+    category: "Analytics",
+    iconName: "Activity",
+    connected: false,
+  },
+  {
+    id: "google-analytics",
+    name: "Google Analytics 4 (GA4)",
+    description: "Send server-side measurement protocol events to synchronize campaign conversions and ads ROI.",
+    category: "Analytics",
+    iconName: "BarChart3",
+    connected: true,
+    lastSync: "10m ago",
+  },
+  {
+    id: "github",
+    name: "GitHub Deployments",
+    description: "Link commits and pull requests to deployment annotations on retention and metric graphs.",
+    category: "Database",
+    iconName: "GitBranch",
+    connected: true,
+    lastSync: "1h ago",
+  },
+  {
+    id: "custom-webhook",
+    name: "Custom Outgoing Webhooks",
+    description: "Broadcast JSON event payloads to your backend endpoints with signed cryptographic HMAC signatures.",
+    category: "Messaging",
+    iconName: "Radio",
+    connected: true,
+    webhookUrl: "https://api.yourbackend.com/webhooks/events",
+    lastSync: "45s ago",
+  },
+];
+
+export const integrationMetrics: MetricStat[] = [
+  { title: "Connected Services", value: "6 Active", change: "+2 this month", trend: "up", description: "out of 7 available" },
+  { title: "Webhook Deliveries", value: "99.98%", change: "+0.02%", trend: "up", description: "uptime success rate" },
+  { title: "Daily Sync Volume", value: "482,900", change: "+14.5%", trend: "up", description: "events synchronized" },
+  { title: "Average Latency", value: "14ms", change: "-2ms", trend: "down", description: "webhook dispatch delay" },
+];

@@ -1,0 +1,7 @@
+{
+  "name": "Hamzet Wasel Dashboard",
+  "description": "Hamzet Wasel Dashboard — Modern analytics, product insights, and infrastructure operations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
