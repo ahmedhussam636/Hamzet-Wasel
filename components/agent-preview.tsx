@@ -26,11 +26,14 @@ export function AgentPreview() {
 			</CardHeader>
 			<CardContent className="flex flex-1 flex-col items-start justify-center px-(--card-spacing) py-8">
 				<Avatar className="size-20">
-					<AvatarImage alt="" src="https://github.com/shabanhr.png" />
-					<AvatarFallback>SH</AvatarFallback>
+					<AvatarImage
+						alt=""
+						src="https://cdn.shadcnstudio.com/ss-assets/avatar/avatar-5.png"
+					/>
+					<AvatarFallback>AS</AvatarFallback>
 				</Avatar>
 				<p className="mt-4 text-balance font-heading font-medium text-xl">
-					Shaban Haider
+					Ahmed Steet
 				</p>
 				<p className="mt-1 text-pretty text-muted-foreground text-sm">
 					Support lead · Karachi
@@ -43,7 +46,7 @@ export function AgentPreview() {
 					</span>
 				</div>
 				{/* <blockquote className="mt-6 w-full text-pretty rounded-lg border bg-muted/40 p-3 text-left text-sm">
-					Hi, I&apos;m Shaban. I&apos;ll take it from here.
+					Hi, I&apos;m Ahmed. I&apos;ll take it from here.
 				</blockquote> */}
 			</CardContent>
 			<CardFooter className="grid w-full grid-cols-3 divide-x border-t">

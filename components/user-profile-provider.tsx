@@ -40,17 +40,17 @@ export interface AccountActivityItem {
 	status: "Success" | "Warning";
 }
 
-const PROFILE_STORAGE_KEY = "hamzet-wasel-user-profile-v1";
+const PROFILE_STORAGE_KEY = "hamzet-wasel-user-profile-v3";
 const ACTIVITY_STORAGE_KEY = "hamzet-wasel-account-activity-v1";
 
 export const DEFAULT_USER_PROFILE: UserProfile = {
-	name: "Shaban Haider",
-	email: "shaban@hamzetwasel.com",
-	avatar: "https://github.com/shabanhr.png",
-	role: "Support Lead",
+	name: "Ahmed Steet",
+	email: "ahmedsteet600@gmail.com",
+	avatar: "https://cdn.shadcnstudio.com/ss-assets/avatar/avatar-5.png",
+	role: "Web Developer & Customer Success Lead",
 	location: "Cairo, Egypt",
 	timezone: "Africa/Cairo (UTC+2)",
-	bio: "Leading customer operations, retention workflows, and product analytics across EMEA hubs.",
+	bio: "Passionate web developer and customer success lead with a focus on creating seamless user experiences.",
 	status: "online",
 	workingHoursStart: "09:00",
 	workingHoursEnd: "17:00",
@@ -62,7 +62,7 @@ export const INITIAL_ACTIVITY_EVENTS: AccountActivityItem[] = [
 	{
 		id: "act-101",
 		timestamp: "2026-11-20 13:42",
-		actor: "Shaban Haider",
+		actor: "Ahmed Steet",
 		category: "Security",
 		action: "Verified active session",
 		target: "Chrome on macOS · Current browser",
@@ -73,7 +73,7 @@ export const INITIAL_ACTIVITY_EVENTS: AccountActivityItem[] = [
 	{
 		id: "act-102",
 		timestamp: "2026-11-20 11:18",
-		actor: "Shaban Haider",
+		actor: "Ahmed Steet",
 		category: "Data",
 		action: "Exported customer retention cohorts",
 		target: "cohorts-q4-2026.csv",
@@ -95,7 +95,7 @@ export const INITIAL_ACTIVITY_EVENTS: AccountActivityItem[] = [
 	{
 		id: "act-104",
 		timestamp: "2026-11-19 09:34",
-		actor: "Shaban Haider",
+		actor: "Ahmed Steet",
 		category: "Account",
 		action: "Updated working availability hours",
 		target: "09:00 – 17:00 (Africa/Cairo)",
@@ -128,7 +128,7 @@ export const INITIAL_ACTIVITY_EVENTS: AccountActivityItem[] = [
 	{
 		id: "act-107",
 		timestamp: "2026-11-17 16:40",
-		actor: "Shaban Haider",
+		actor: "Ahmed Steet",
 		category: "Data",
 		action: "Created behavioral segment",
 		target: "High-Intent Trial Accounts",

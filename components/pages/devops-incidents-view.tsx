@@ -157,7 +157,7 @@ const INITIAL_INCIDENTS: IncidentItem[] = [
     service: "billing-worker",
     severity: "SEV-1",
     status: "Resolved",
-    responder: "Shaban Haider",
+    responder: "Ahmed Steet",
     openedAt: "Nov 18, 2026",
     summary: "Rolled back worker v2.14.3 and capped concurrent Chromium tabs.",
   },
@@ -439,7 +439,7 @@ export function DevOpsIncidentsView(props: DashboardBlockStateProps = {}) {
       service,
       severity,
       status: "Open",
-      responder: "Shaban Haider",
+      responder: "Ahmed Steet",
       openedAt: "Just now",
       summary: summaryText.trim() || "Triage started by on-call responder.",
     };

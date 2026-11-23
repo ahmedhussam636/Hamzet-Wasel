@@ -89,8 +89,8 @@ const daysAgoIso = (days: number) =>
 const INITIAL_MEMBERS: TeamMember[] = [
 	{
 		id: "mem-1",
-		name: "Shaban Haider",
-		email: "shaban@hamzetwasel.com",
+		name: "Ahmed Steet",
+		email: "ahmedsteet600@gmail.com",
 		role: "Owner",
 		department: "Customer Operations",
 		status: "Active",

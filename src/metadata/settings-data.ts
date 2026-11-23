@@ -20,8 +20,8 @@ export const initialProjectSettings: ProjectSettings = {
     },
     {
       id: "mem-2",
-      name: "Shaban Haider",
-      email: "shaban@hamzetwasel.com",
+      name: "Ahmed Steet",
+      email: "ahmedsteet600@gmail.com",
       role: "Admin",
       avatar: "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?w=100&h=100&fit=crop",
       status: "Active",

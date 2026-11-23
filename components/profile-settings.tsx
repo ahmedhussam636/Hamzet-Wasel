@@ -13,7 +13,7 @@ import { Input } from "@/components/ui/input";
 import { SettingField } from "@/components/settings-field";
 import { SettingsSection } from "@/components/settings-section";
 
-const defaultSrc = "https://github.com/shabanhr.png";
+const defaultSrc = "https://cdn.shadcnstudio.com/ss-assets/avatar/avatar-5.png";
 
 export function ProfileSettings() {
 	return (
@@ -40,7 +40,7 @@ export function ProfileSettings() {
 					>
 						<Input
 							autoComplete="name"
-							defaultValue="Shaban Haider"
+							defaultValue="Ahmed Steet"
 							id="display-name"
 						/>
 					</SettingField>
@@ -52,7 +52,7 @@ export function ProfileSettings() {
 					>
 						<Input
 							autoComplete="email"
-							defaultValue="shaban@hamzetwasel.com"
+							defaultValue="ahmedsteet600@gmail.com"
 							id="email"
 							type="email"
 						/>
@@ -83,7 +83,7 @@ function SettingsAvatar() {
 		<div className="flex w-full items-center justify-between gap-4">
 			<Avatar className="size-16">
 				<AvatarImage alt="" src={src} />
-				<AvatarFallback>SH</AvatarFallback>
+				<AvatarFallback></AvatarFallback>
 			</Avatar>
 			<div className="flex items-center">
 				<Button

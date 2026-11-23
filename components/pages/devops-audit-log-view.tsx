@@ -204,7 +204,7 @@ const AUDIT_ENTRIES: DevOpsAuditEntry[] = [
   {
     id: "aud-9038",
     timestamp: "2026-11-22 13:20:09",
-    actor: "Shaban Haider",
+    actor: "Ahmed Steet",
     actorType: "engineer",
     action: "Updated ingress WAF rate limit rule",
     resource: "edge / waf-policy-public-api",
@@ -266,7 +266,7 @@ const ACTOR_LEADERBOARD = [
   { actor: "Karim Hassan", role: "Platform lead", events: 52, region: "eu-west-2" },
   { actor: "terraform-cloud[bot]", role: "IaC runner", events: 46, region: "us-east-1" },
   { actor: "Nour El-Din", role: "SRE", events: 31, region: "me-central-1" },
-  { actor: "Shaban Haider", role: "Workspace admin", events: 28, region: "global" },
+  { actor: "Ahmed Steet", role: "Workspace admin", events: 28, region: "global" },
 ];
 
 const auditedEventsKPIProps: LineChartKPI1Props = {
